@@ -4,35 +4,112 @@
       max-width: 1280px;
       margin: 0 auto;
       display: flex;
-      justify-content: space-between;
+
       .logo {
          flex: 1;
       }
-
-      .contact {
+      nav {
          flex: 2;
-         .contactList {
-            li {
-               margin-bottom: 8px;
-            }
-         }
-      }
-
-      .social {
-         flex: 1;
-         .socialList {
-            display: flex;
-            justify-content: space-between;
-            li {
-            }
-         }
-      }
-
-      .darkTheme {
-         flex: 1;
          display: flex;
-         justify-content: flex-end;
-         align-items: flex-start;
+         justify-content: space-between;
+
+         .contact {
+            flex: 1;
+            .contactList {
+               li {
+                  margin-bottom: 10px;
+               }
+            }
+         }
+
+         .social {
+            flex: 1;
+            .socialList {
+               display: flex;
+               justify-content: space-between;
+            }
+         }
+
+         .darkTheme {
+            flex: 1;
+            display: flex;
+            justify-content: flex-end;
+            align-items: flex-start;
+         }
       }
+
+      .navBtn {
+         padding: 5px;
+         cursor: pointer;
+         background: transparent;
+         border: none;
+         outline: none;
+         visibility: hidden;
+         opacity: 0;
+         font-size: 1.8rem;
+         display: none;
+      }
+   }
+}
+
+@media (max-width: 820px) {
+   .container {
+      nav {
+         padding-top: 3rem;
+         border-left: 1px solid black;
+         align-items: flex-start;
+         padding-left: 2rem;
+
+         .contact {
+            flex: 0.3 !important;
+         }
+
+         .social {
+            flex: 0.3 !important;
+
+            .socialList {
+               flex-direction: column;
+               li {
+                  margin-bottom: 10px;
+               }
+            }
+         }
+
+         .darkTheme {
+            flex: 2;
+         }
+      }
+   }
+   .menuList {
+      position: fixed;
+      top: 0;
+      right: 0;
+      width: 50%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      background-color: var(--white);
+      color: #000;
+      transition: 1s;
+      transform: translatex(100vh);
+      z-index: 99;
+   }
+
+   .menuListOpen {
+      transform: none;
+   }
+
+   .navBtn {
+      visibility: visible !important;
+      opacity: 1 !important;
+      display: block !important;
+   }
+
+   .navCloseBtn {
+      position: absolute;
+      top: 2rem;
+      right: 2rem;
    }
 }

@@ -11,6 +11,7 @@ body {
   background-color: var(--white);
   color: var(--black);
   font-size: 14px;
+  scroll-behavior: smooth;
 }
 
 *,
@@ -30,6 +31,14 @@ a:visited {
 a:focus,
 a:active {
   outline: none;
+}
+
+a {
+  transition: all 0.3s ease;
+
+  &:hover {
+    border-bottom: 3px solid black;
+  }
 }
 
 aside,
@@ -109,3 +118,7 @@ label {
 legend {
   display: block;
 }
+
+// .card:hover {
+//   box-shadow: rgba(255, 172, 28, 0.199) -10px 10px, rgba(255, 172, 28, 0.19) -20px 20px;
+// }
