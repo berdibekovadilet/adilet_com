@@ -14,7 +14,7 @@
          justify-content: space-between;
 
          .contact {
-            flex: 1;
+            flex: 2;
             .contactList {
                li {
                   margin-bottom: 10px;
@@ -28,13 +28,6 @@
                display: flex;
                justify-content: space-between;
             }
-         }
-
-         .darkTheme {
-            flex: 1;
-            display: flex;
-            justify-content: flex-end;
-            align-items: flex-start;
          }
       }
 
@@ -64,22 +57,16 @@
          padding-left: 2rem;
 
          .contact {
-            flex: 0.3 !important;
+            flex: 0.2 !important;
          }
 
          .social {
-            flex: 0.3 !important;
-
             .socialList {
                flex-direction: column;
                li {
                   margin-bottom: 10px;
                }
             }
-         }
-
-         .darkTheme {
-            flex: 2;
          }
       }
    }

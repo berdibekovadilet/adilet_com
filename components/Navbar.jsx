@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { MdOutlineDarkMode, MdMenu, MdClose } from "react-icons/md";
+import { TbArrowUpRight } from "react-icons/tb";
 import styles from "/styles/Navbar.module.scss";
 
 const Navbar = () => {
@@ -67,6 +68,7 @@ const Navbar = () => {
                   rel="noreferrer noopener"
                 >
                   HeadHunter
+                  <TbArrowUpRight size={18} />
                 </a>
               </li>
               <li>
@@ -76,6 +78,7 @@ const Navbar = () => {
                   rel="noreferrer noopener"
                 >
                   LinkedIn
+                  <TbArrowUpRight size={18} />
                 </a>
               </li>
               <li>
@@ -85,13 +88,12 @@ const Navbar = () => {
                   rel="noreferrer noopener"
                 >
                   GitHub
+                  <TbArrowUpRight size={18} />
                 </a>
               </li>
             </ul>
           </div>
-          <div className={styles.darkTheme}>
-            <MdOutlineDarkMode style={styleReactIcon} />
-          </div>
+         
           <button
             className={`${styles.navBtn} ${styles.navCloseBtn}`}
             onClick={showMenu}
