@@ -62,6 +62,15 @@ p {
   line-height: inherit;
 }
 
+h1 {
+  font-size: 44px;
+}
+
+h3 {
+  font-size: 14px;
+  font-weight: 600;
+}
+
 p + p {
   margin-top: 1rem;
 }
@@ -122,3 +131,14 @@ legend {
 // .card:hover {
 //   box-shadow: rgba(255, 172, 28, 0.199) -10px 10px, rgba(255, 172, 28, 0.19) -20px 20px;
 // }
+
+@media (max-width: 860px) {
+  h1 {
+    font-size: 36px;
+  }
+}
+@media (max-width: 767px) {
+  h1 {
+    font-size: 28px;
+  }
+}
