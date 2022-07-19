@@ -5,7 +5,7 @@ const Hero = () => {
     <section className={styles.container}>
       <div className={styles.row}>
         <div className={styles.stack}>
-          <h3>ЗНАЮ/УМЕЮ</h3>
+          <h3>ЗНАЮ, УМЕЮ</h3>
           <ul className={styles.stackList}>
             <li>React / Next</li>
             <li>Typescript</li>

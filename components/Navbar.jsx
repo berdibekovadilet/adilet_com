@@ -63,7 +63,7 @@ const Navbar = () => {
             <ul className={styles.socialList}>
               <li>
                 <a
-                  href="https://t.me/+79309306674"
+                  href="https://hh.ru/resume/a7563438ff09b973490039ed1f69644d64486b"
                   target="_blank"
                   rel="noreferrer noopener"
                 >
@@ -73,7 +73,7 @@ const Navbar = () => {
               </li>
               <li>
                 <a
-                  href="https://wa.me/+79309306674"
+                  href="https://www.linkedin.com/in/adilet-berdibekov/"
                   target="_blank"
                   rel="noreferrer noopener"
                 >
@@ -83,7 +83,7 @@ const Navbar = () => {
               </li>
               <li>
                 <a
-                  href="https://wa.me/+79309306674"
+                  href="https://github.com/berdibekovadilet"
                   target="_blank"
                   rel="noreferrer noopener"
                 >
@@ -93,7 +93,7 @@ const Navbar = () => {
               </li>
             </ul>
           </div>
-         
+
           <button
             className={`${styles.navBtn} ${styles.navCloseBtn}`}
             onClick={showMenu}

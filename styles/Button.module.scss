@@ -1,0 +1,13 @@
+.container {
+   background-color: var(--black);
+   color: var(--white);
+   border: 1px solid var(--black);
+   padding: 12px 24px;
+   transition: all 0.3s ease;
+
+   &:hover {
+      background-color: var(--white);
+      border: 1px solid var(--black);
+      color: var(--black);
+   }
+}

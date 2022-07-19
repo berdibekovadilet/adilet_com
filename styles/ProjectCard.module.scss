@@ -1,0 +1,50 @@
+.container {
+   margin-bottom: 80px;
+   width: 320px;
+   box-shadow: 0px 5px 14px -4px rgba(34, 60, 80, 0.2);
+   transition: all 0.3s ease;
+
+   .imgContainer {
+      width: 320px;
+      height: auto;
+
+      img {
+         object-fit: cover;
+      }
+   }
+
+   .row {
+      padding: 16px;
+      background-color: var(--white);
+
+      .title {
+         font-size: 22px;
+         font-weight: 600;
+         margin-bottom: 16px;
+      }
+
+      .chipsWrapper {
+         display: flex;
+         margin-bottom: 16px;
+      }
+
+      .desk {
+         font-weight: 300;
+         margin-bottom: 16px;
+      }
+
+      .buttonsWrapper {
+         display: flex;
+         > * {
+            margin-right: 16px;
+         }
+      }
+   }
+   &:hover {
+      box-shadow: rgba(143, 153, 173, 0.199) -10px 10px, rgba(161, 169, 192, 0.19) -20px 20px;
+   }
+}
+
+// .card:hover {
+//
+// }
