@@ -1,0 +1,38 @@
+.container {
+   margin-top: 24px;
+   .row {
+      max-width: 1280px;
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-between;
+      .logo {
+         flex: 1;
+      }
+
+      .contact {
+         flex: 2;
+         .contactList {
+            li {
+               margin-bottom: 8px;
+            }
+         }
+      }
+
+      .social {
+         flex: 1;
+         .socialList {
+            display: flex;
+            justify-content: space-between;
+            li {
+            }
+         }
+      }
+
+      .darkTheme {
+         flex: 1;
+         display: flex;
+         justify-content: flex-end;
+         align-items: flex-start;
+      }
+   }
+}
