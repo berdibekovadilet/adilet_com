@@ -1,13 +1,14 @@
 import styles from "/styles/ProjectCard.module.scss";
 import Image from "next/image";
 import Button from "./globalComponents/Button";
+import Chips from "./globalComponents/Chips";
 
-const ProjectCard = () => {
+const ProjectCard = ({ data }) => {
   return (
     <div className={styles.container}>
       <div className={styles.imgContainer}>
         <Image
-          src="/images/quoteGenerator.png"
+          src={data.cover}
           size="cover"
           width={400}
           height={250}
@@ -15,14 +16,20 @@ const ProjectCard = () => {
         />
       </div>
       <div className={styles.row}>
-        <h2 className={styles.title}>Quote Generator App</h2>
-        <div className={styles.chipsWrapper}>React API Fetch</div>
-        <p className={styles.desk}>
-          Генератор аниме цитат из открытого API с функцией sharing в Твиттер.
-        </p>
+        <h2 className={styles.title}>{data.title}</h2>
+        <div className={styles.chipsWrapper}>
+          {data.chips.map((item) => (
+            <Chips key={item}>{item}</Chips>
+          ))}
+        </div>
+        <p className={styles.desc}>{data.desc}</p>
         <div className={styles.buttonsWrapper}>
-          <Button>Live Preview</Button>
-          <Button>Github</Button>
+          <a href={data.livePreview} target="_blank" rel="noreferrer noopener">
+            <Button>Live Preview</Button>
+          </a>
+          <a href={data.github} target="_blank" rel="noreferrer noopener">
+            <Button>Github</Button>
+          </a>
         </div>
       </div>
     </div>
