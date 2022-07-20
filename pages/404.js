@@ -10,7 +10,7 @@ const PageNotFound = () => {
   useEffect(() => {
     setTimeout(() => {
       router.push("/");
-    }, 5000);
+    }, 3000);
   });
 
   return (
@@ -19,7 +19,7 @@ const PageNotFound = () => {
         <h1>404</h1>
         <h2 className={styles.title}>Ой, такой страницы не существует</h2>
         <p className={styles.desc}>
-          Вы автоматически будете переведны на главную страницу через 5 секунд.
+          Вы автоматически будете переведны на главную страницу через 3 секунды.
         </p>
         <Link href="/">
           <Button>Перейти на главную самостоятельно</Button>
