@@ -1,0 +1,20 @@
+.wrapper {
+   background-color: var(--black);
+   width: 320px;
+   padding: 24px;
+   margin-bottom: 80px;
+
+   .title {
+      font-size: 22px;
+      font-weight: 600;
+      color: var(--white);
+      margin-bottom: 24px;
+   }
+
+   .buttonsWrapper {
+      display: flex;
+      > * {
+         margin-right: 16px !important;
+      }
+   }
+}

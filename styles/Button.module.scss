@@ -1,4 +1,4 @@
-.container {
+.button {
    background-color: var(--black);
    color: var(--white);
    border: 1px solid var(--black);
@@ -9,5 +9,19 @@
       background-color: var(--white);
       color: var(--black);
       border: 1px solid var(--black);
+   }
+}
+
+.buttonWhite {
+   background-color: var(--white);
+   color: var(--black);
+   border: 1px solid var(--white);
+   padding: 12px 24px;
+   transition: all 0.3s ease;
+
+   &:hover {
+      background-color: var(--black);
+      color: var(--white);
+      border: 1px solid var(--white);
    }
 }

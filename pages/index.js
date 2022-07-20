@@ -1,6 +1,7 @@
 import Head from "next/head";
 import Image from "next/image";
 import Hero from "../components/Hero";
+import MiniProjects from "../components/MiniProjects";
 import Navbar from "../components/Navbar";
 import Projects from "../components/Projects";
 import styles from "../styles/Home.module.scss";
@@ -16,6 +17,7 @@ export default function Home() {
       <Navbar />
       <Hero />
       <Projects />
+      <MiniProjects />
     </div>
   );
 }

@@ -1,7 +1,9 @@
 import styles from "/styles/Button.module.scss";
 
-const Button = ({ children }) => {
-  return <button className={styles.container}>{children}</button>;
+export const Button = ({ children }) => {
+  return <button className={styles.button}>{children}</button>;
 };
 
-export default Button;
+export const ButtonWhite = ({ children }) => {
+  return <button className={styles.buttonWhite}>{children}</button>;
+};

@@ -1,6 +1,6 @@
 import styles from "/styles/ProjectCard.module.scss";
 import Image from "next/image";
-import Button from "./globalComponents/Button";
+import { Button } from "./globalComponents/Button";
 import Chips from "./globalComponents/Chips";
 
 const ProjectCard = ({ data }) => {

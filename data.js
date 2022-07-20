@@ -92,4 +92,10 @@ export const addPortfolioData = [
     livePreview: "https://admindashboard12.netlify.app/",
     github: "https://github.com/berdibekovadilet/admindahboard",
   },
+  {
+    id: 6,
+    title: "Portfolio site",
+    livePreview: "https://adilet-com.vercel.app/",
+    github: "https://github.com/berdibekovadilet/adilet_com",
+  },
 ];
