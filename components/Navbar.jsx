@@ -32,7 +32,7 @@ const Navbar = () => {
             <ul className={styles.contactList}>
               <li>
                 <a
-                  href="https://t.me/+79309306674"
+                  href="https://t.me/adiletberdibekov"
                   target="_blank"
                   rel="noreferrer noopener"
                 >

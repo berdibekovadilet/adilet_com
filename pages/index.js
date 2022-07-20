@@ -1,5 +1,6 @@
 import Head from "next/head";
-import Image from "next/image";
+import AboutMe from "../components/AboutMe";
+import Footer from "../components/Footer";
 import Hero from "../components/Hero";
 import MiniProjects from "../components/MiniProjects";
 import Navbar from "../components/Navbar";
@@ -18,6 +19,8 @@ export default function Home() {
       <Hero />
       <Projects />
       <MiniProjects />
+      <AboutMe />
+      <Footer />
     </div>
   );
 }

@@ -99,3 +99,24 @@ export const addPortfolioData = [
     github: "https://github.com/berdibekovadilet/adilet_com",
   },
 ];
+
+export const socialData = [
+  {
+    id: 1,
+    text: "+7(930)930-6674",
+    icon: "/icons/iconWhatsapp.svg",
+    link: "https://wa.me/+79309306674",
+  },
+  {
+    id: 2,
+    text: "@adiletberdibekov",
+    icon: "/icons/iconTelegram.svg",
+    link: "https://t.me/adiletberdibekov",
+  },
+  {
+    id: 3,
+    text: "berdibekovadilet@gmail.com",
+    icon: "/icons/iconMail.svg",
+    link: "mailto:berdibekovadilet@gmail.com",
+  },
+];

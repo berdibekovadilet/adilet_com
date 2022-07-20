@@ -1,0 +1,19 @@
+.container {
+   margin: 80px 0;
+
+   .wrapper {
+      max-width: 1180px;
+      margin: 0 auto;
+
+      .title {
+         margin-bottom: 32px;
+      }
+
+      .row {
+         display: flex;
+         align-items: center;
+         justify-content: space-between;
+         flex-wrap: wrap;
+      }
+   }
+}
