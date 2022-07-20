@@ -29,6 +29,14 @@
                justify-content: space-between;
             }
          }
+
+         a {
+            transition: all 0.3s ease;
+
+            &:hover {
+               border-bottom: 3px solid black;
+            }
+         }
       }
 
       .navBtn {
