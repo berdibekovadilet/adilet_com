@@ -31,13 +31,13 @@ export const mainPortfolioData = [
   },
   {
     id: 4,
-    cover: "/images/helpdesk/cover.webp",
-    image: "/images/helpdesk/page.webp",
+    cover: "/images/urlshorting/1.webp",
+    image: "/images/urlshorting/1.webp",
     title: "URL Shorting",
     chips: ["React", "Redux", "API"],
     desc: "Простое приложение которое сокращает ссылки, сделанна на React с применением Redux Toolkit и API.",
-    livePreview: "https://helpdesk.kg/",
-    github: "https://github.com/berdibekovadilet/server_rent_nextjs",
+    livePreview: "https://urlshorting.netlify.app/",
+    github: "https://github.com/berdibekovadilet/url-shorting-app",
   },
   {
     id: 5,
