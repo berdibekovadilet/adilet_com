@@ -51,8 +51,8 @@ export const mainPortfolioData = [
   },
   {
     id: 6,
-    cover: "/images/casio/1.webp",
-    image: "/images/casio/1.webp",
+    cover: "/images/dev/cover.png",
+    image: "/images/dev/cover.png",
     title: "Sell Courses (В разработке)",
     chips: ["Next", "Typescript", "Redux"],
     desc: "Приложением про курсы ИТ на Next JS и Typescript приближенный к профессиональному продакшену.",
