@@ -51,13 +51,13 @@ export const mainPortfolioData = [
   },
   {
     id: 6,
-    cover: "/images/dev/cover.png",
-    image: "/images/dev/cover.png",
-    title: "Sell Courses (В разработке)",
+    cover: "/images/courses/cover.webp",
+    image: "/images/courses/cover.webp",
+    title: "Courses (В разработке)",
     chips: ["Next", "Typescript", "Redux"],
     desc: "Приложением про курсы ИТ на Next JS и Typescript приближенный к профессиональному продакшену.",
-    livePreview: "https://casiowatch.netlify.app/",
-    github: "https://github.com/berdibekovadilet/watch_ecommerce",
+    livePreview: "https://courses-choose.vercel.app/",
+    github: "https://github.com/berdibekovadilet/top_app",
   },
 ];
 
