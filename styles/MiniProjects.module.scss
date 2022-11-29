@@ -1,6 +1,11 @@
 .container {
    max-width: 1180px;
    margin: 0 auto;
+   h2 {
+      font-size: 32px;
+      margin-top: 24px;
+      margin-bottom: 32px;
+   }
    .row {
       display: flex;
       flex-wrap: wrap;

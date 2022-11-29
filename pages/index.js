@@ -1,5 +1,6 @@
 import Head from "next/head";
 import AboutMe from "../components/AboutMe";
+import BackEndProjects from "../components/BackEndProjects";
 import Footer from "../components/Footer";
 import Hero from "../components/Hero";
 import MiniProjects from "../components/MiniProjects";
@@ -18,6 +19,7 @@ export default function Home() {
       <Navbar />
       <Hero />
       <Projects />
+      <BackEndProjects />
       <MiniProjects />
       <AboutMe />
       <Footer />

@@ -10,7 +10,7 @@ const Hero = () => {
             <li>React / Next</li>
             <li>Typescript</li>
             <li>Redux Toolkit</li>
-            <li>Module.scss</li>
+            <li>REST API</li>
             <li>HTML / CSS</li>
           </ul>
         </div>

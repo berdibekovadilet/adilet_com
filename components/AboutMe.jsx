@@ -6,21 +6,17 @@ const AboutMe = () => {
       <h2 className={styles.title}>Обо мне</h2>
       <div className={styles.row}>
         <div className={styles.info}>
-          <p>
-            В вебе не новичок, несколько лет работал делая сайты на Wordpress
-          </p>
+          <p>Быстро и качественно верстаю на флекс-боксах</p>
           <span className={styles.dot}></span>
-          <p>Несколько лет работал UX/UI дизайнером</p>
+          <p>Хорошо типизирую данные на TypeScript</p>
           <span className={styles.dot}></span>
-          <p>В компонентах не новичок, умею работать с дизайн системами</p>
+          <p>Создаваю изолированные и реюзабельные UI компоненты на TS</p>
           <span className={styles.dot}></span>
-          <p> Работа в рамках гайдлайнов, фирменных стилей</p>
-          <span className={styles.dot}></span>
-          <p>Изучал C# и Swift</p>
+          <p>Разбираюсь в Redux Toolkit</p>
           <span className={styles.dot}></span>
           <p>
-            Сейчас помимо Front-End еще изучаю Back-End и БД, хочу в будущем
-            стать FullStack разработчиком
+            Помимо Front-End еще изучаю Back-End. Бэк на Express и Nest JS, БД на
+            Postgres и MongoDB
           </p>
           <span className={styles.dot}></span>
           <p>Большой опыт удаленной работы</p>
